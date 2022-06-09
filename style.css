@@ -1,0 +1,200 @@
+.wrapper {
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(img/bg_1.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.wrapper-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header li{
+    display: inline-block;
+    font-size: 15px;
+   margin-right: 10px;
+
+}
+
+.header a {
+
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header p{
+    color: white;
+}
+.banner{
+    padding-top:70px ;
+    padding-bottom: 70px;
+   
+    text-align: center;
+    
+}
+
+.recipes {
+    background-color: #fff;
+    padding-top: 20px;
+}
+.recipes h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: brown;  
+}
+
+.text{
+    background-image: url(img/line.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:70px ;
+    padding-bottom: 70px;
+}
+.box{
+    width: 450px;
+    height: 340px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 10px solid white;
+    outline-offset: -20px;
+
+}
+.boxes{
+  
+    padding-top:70px ;
+    padding-bottom: 70px;
+    
+}
+.boxes .wrapper-inner{
+    display: flex;
+    justify-content: space-between ;
+}
+.imeg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.restart {
+    width: 30%;
+
+}
+.restart p{
+    text-align: center;
+    text-transform: uppercase;
+    color: yellowgreen;
+}
+
+.restart img {
+    width: 100%;
+}
+.merge{
+    background-color: white;
+    padding-top:70px ;
+    padding-bottom: 70px;
+}
+.merge .wrapper-inner{
+    display: flex;
+
+}
+.merge .left{
+    width: 25%;
+}
+.merge .right{
+    width: 75%;
+}
+.right .food{
+    display: flex;
+    margin-bottom: 15px;
+}
+.food img{
+    margin-right: 15px;
+}
+.merge .left li{
+list-style: none;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+.social{
+  
+    padding-top:70px ;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.social h4{
+    text-transform: uppercase;
+    color: white;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+    
+
+}
+
+.social i {
+    transition: all 0.3s;
+}
+.social i:hover{
+    color: rgb(255, 0, 0);
+    transform: rotate(360deg);
+    
+}
+.footer{
+    background-color: black;
+    padding-top:70px ;
+    padding-bottom: 70px;
+}
+.kivi p{
+    color: yellowgreen;
+    text-align: center;
+}
+.footer .wrapper-inner{
+    display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+   align-items: center;
+} 
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.menu{
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+
+}
+.contact a{
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+}
